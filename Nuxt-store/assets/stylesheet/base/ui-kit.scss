@@ -1,0 +1,32 @@
+img {
+	max-width: 100%;
+	max-height: 100%;
+	width: auto !important;
+	height: auto !important;
+	aspect-ratio: auto !important;
+}
+
+svg {
+	pointer-events: none; 
+}
+
+p {
+	margin: .7rem 0;
+}
+
+h1 {
+	margin: .7rem 0;
+}
+
+h2 {
+	margin: .7rem 0;
+}
+
+h3 {
+	margin-top: .7rem;
+	margin-bottom: 2rem;
+}
+
+a {
+	font-size: 1.2rem;
+}

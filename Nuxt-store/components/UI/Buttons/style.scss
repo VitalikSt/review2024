@@ -1,0 +1,24 @@
+@import "../../../assets/stylesheet/helpers/variables.scss";
+
+button, .as-button {
+	display: flex;
+	align-items: center;
+	font-family: $bs-font-family;
+	margin: .7rem 0;
+	color: $black;
+	cursor: pointer;
+	border-radius: 0;
+	border: 1px solid $light-grey;
+	text-decoration: none;
+	svg {
+		width: 31px;
+		height: 31px;
+	}
+}
+
+button:disabled[disabled] {
+	color: $black;
+	border-radius: 0;
+	border: 1px solid $light-grey;
+	cursor: not-allowed;
+}

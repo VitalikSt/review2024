@@ -1,0 +1,29 @@
+.cart-item {
+	margin: 2rem 0;
+}
+
+img {
+	width: 250px !important;
+	height: 250px !important;
+	object-fit: contain;
+}
+
+.cart-item {
+	display: grid;
+  grid-template-columns: 22% 41% 28% 4%;
+  grid-column-gap: 1rem;
+  align-items: center;
+	border: 2px solid #6c757d;
+	border-radius: 0.5rem;
+	padding: 0.5rem;
+}
+
+.price {
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+}
+
+.quantity {
+	width: 50%;
+}

@@ -1,0 +1,17 @@
+html {
+  -webkit-text-size-adjust: 100%; 
+}
+
+body {
+  font-family: $bs-font-family;
+  font-size: $bs-font-size;
+  color: $bs-color;
+	margin: 0;
+	position: relative;
+}
+
+#wrapper {
+	display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}

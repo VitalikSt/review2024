@@ -1,0 +1,12 @@
+@import '@/assets/stylesheet/helpers/variables.scss';
+
+.count {
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	background: $gray;
+	border-radius: 50%;
+	color: $white;
+	text-align: center;
+	font-size: .813rem;
+}

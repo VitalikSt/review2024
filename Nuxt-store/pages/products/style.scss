@@ -1,0 +1,25 @@
+.row {
+	display: grid;
+	grid-template-columns: 47% 50%;
+	grid-column-gap: 2rem;
+	margin: 2rem 0;
+	.col-1 {
+		img {
+			width: 350px !important;
+		}
+	}
+	.col-2 {
+		p, strong {
+			font-size: 1.2rem;
+		}
+		.controls {
+			display: flex;
+			gap: 1rem;
+			margin: 1rem 0;
+		}
+	}
+	::v-deep(.quantity) input {
+		width: 10%;
+	}
+
+}
